@@ -1,21 +1,21 @@
 {
-  "keyboard_name": "Tanuki",
-  "manufacturer": "Seth",
-  "url": "",
-  "maintainer": "qmk",
+  "manufacturer": "Gustavo Chen",
+  "keyboard_name": "tanuki_gasket",
+  "maintainer": "Gustavo Chen",
+  "development_board": "promicro",
   "usb": {
     "vid": "0xFEED",
     "pid": "0x6464",
     "device_version": "0.0.1"
   },
   "features": {
-    "bootmagic": false,
+    "bootmagic": true,
     "command": false,
     "console": false,
     "extrakey": true,
     "mousekey": false,
     "nkro": true,
-    "rgblight": true
+    "rgblight": false
   },
   "qmk": {
     "locking": {
